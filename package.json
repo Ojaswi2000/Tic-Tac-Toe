@@ -8,16 +8,20 @@
   },
   "license": "MIT",
   "dependencies": {
+    "node-sass": "^5.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.8",
     "@parcel/optimizer-htmlnano": "^2.0.0-nightly.617",
     "@parcel/packager-html": "^2.0.0-nightly.617",
     "@parcel/transformer-html": "^2.0.0-nightly.617",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.617",
     "@parcel/transformer-posthtml": "^2.0.0-nightly.617",
     "babel-preset-nano-react-app": "^0.1.0",
-    "parcel": "^2.0.0-alpha.3.2"
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.3"
   },
   "babel": {
     "presets": [
