@@ -1,22 +1,22 @@
 import React from 'react'
-import Squ from './Squ';
+import Square from './Square';
 const Board = () => {
     return (
         <div>
             <div>
-                <Squ/>
-                <Squ/>
-                <Squ/>
+                <Square/>
+                <Square/>
+                <Square/>
             </div>
             <div>
-                <Squ/>
-                <Squ/>
-                <Squ/>
+                <Square/>
+                <Square/>
+                <Square/>
             </div>
             <div>
-                <Squ/>
-                <Squ/>
-                <Squ/>
+                <Square/>
+                <Square/>
+                <Square/>
             </div>
         </div>
     );
