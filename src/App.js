@@ -10,9 +10,11 @@ const App =() =>{
 
   const winner=calculateWinner(board);
 
+  const message=winner ? `The winner is ${winner}`:`The next player is ${isXNext?'X':'O'}`;
+
   const handleSquareClick= position =>{
 
-      if(board[position])
+      if(board[position] || winner)
       return;
 
       setBoard(prev => {
@@ -29,6 +31,7 @@ const App =() =>{
   return(
     <div className="app">
       <h1>TIC TAC TOE !</h1>
+      <h2>{message}</h2>
       <Board board={board} handleSquareClick={handleSquareClick} />
     </div>
   );
